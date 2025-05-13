@@ -42,11 +42,15 @@ The experimental results suggest two potential use cases for the tested networks
 
 <h2><b>Static Analysis</b>: Confusion Matrix (Full Video)</h2>
 
+These are the confusion matrices generated from full video classification using each of the three neural networks:
+
 ![R(2+1)D confusion matrix (full video)](images/8sec_(2+1)D.png?raw=true "Figure 3") 
 ![R3D confusion matrix (full video)](images/8sec_3D.png?raw=true "Figure 8") 
 ![(YOLOP + CNN) + LSTM confusion matrix (full video)](images/8sec_YOLOP.png?raw=true "Figure 9")
 
 <h2><b>Dynamic Analysis</b> (Clips of Varying Length and Conditions)</h2>
+
+Graphs showing the classification performance of the different neural networks under various weather and lighting conditions:
 
 ![R(2+1)D](images/acc_2+1d.png?raw=true "Figure 6") 
 ![R3D](images/acc3d.png?raw=true "Figure 10") 
@@ -84,6 +88,13 @@ See `requirements.txt`
 
 <h3><b>Acknowledgements</b></h3>
 
-[YOLOP](https://github.com/hustvl/YOLOP)
-
+[YOLOP](https://github.com/hustvl/YOLOP)  
 [R(2+1)D](https://github.com/irhum/R2Plus1D-PyTorch)
+
+<h3><b>Additional Information</b></h3>
+
+This project was developed as part of the Master’s Thesis by Alessandro [YourLastName] and Marianna Cossu.  
+It led to the publication of the report *“Classifying Simulated Driving Scenarios from Automated Cars”*, presented in September 2021 at the University of Pisa.  
+🔗 [Link to the publication](https://www.springerprofessional.de/en/classifying-simulated-driving-scenarios-from-automated-cars/20297592)
+
+⚠️ The source code is not publicly available as it is property of the University of Genoa.
